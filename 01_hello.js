@@ -23,3 +23,7 @@ console.log(holder);
 
 holder = "Sachin Spec"; // Variable update
 console.log(holder); //
+
+
+age=25;
+console.log(age);
