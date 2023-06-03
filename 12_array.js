@@ -4,7 +4,8 @@ console.log(`Type of array: ${typeof arrayOfRollNumbers}`);
 let lengthOfArray = arrayOfRollNumbers.length;
 console.log(`Length of array is : ${lengthOfArray}`);
 
-// Accessing array element
+// Accessing array element 
+
 const zerothIndexValue = arrayOfRollNumbers[0];
 console.log(`Zeroth index value: ${zerothIndexValue}`);
 
@@ -35,7 +36,7 @@ arrayOfRollNumbers.shift();
 console.log(arrayOfRollNumbers);
 
 // arrayOfRollNumbers.push(69, 89, 59);
-// console.log(arrayOfRollNumbers);
+console.log(arrayOfRollNumbers);
 
 
 var arrayOfRollNumbers = [67, 56, 78, 90, 60, 90, 40];
