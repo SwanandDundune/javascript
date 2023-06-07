@@ -71,3 +71,20 @@ console.log("===================================================================
 
 
 
+let num  = ["How" , "are" ,"you", "mate" ];
+
+for (let index = 0; index < num.length; index++) {
+   
+     let word = num[index];
+
+    fcha = word.charAt(0).toUpperCase();
+    lcha = word.slice(-1).toUpperCase();
+
+    result = fcha + word.slice(1,-1) + lcha;
+
+   num[index] = result;
+  
+    
+}
+let newWord = num.join(' ');
+  console.log(newWord);

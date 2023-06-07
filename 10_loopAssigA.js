@@ -58,7 +58,7 @@ console.log(
 // console.log(
 //   `------------------------------------------------------------------------------------------------`
 // );
-// console.log(`Given string is: "Soon I will be Angular IT champ" `);
+// console.log(`Given string is: "Soon I will be Angular IT champ" `); 
 
 // oddPositionedChars("Soon I will be Angular IT champ");
 
@@ -67,21 +67,18 @@ console.log(
 );
 
 function oddPositionedChars(inputString) {
-  var oddchar = "";
+  var str = "";
   for (let index = 0; index < inputString.length; index++) {
     var char = inputString.charAt(index);
            
-    if ((char % 2 != 0 && char != " ") ) {
-  console.log( char);
-  oddchar += char;
-
-       
-          
+    if (index % 2 != 0 && char != " ")  {
+      str = str + char;      
 
      }
      
   }
    
+  console.log( `${str}` );
       
 }
 oddPositionedChars("Hard work always pays back");
