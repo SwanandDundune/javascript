@@ -34,3 +34,5 @@ const sulSalary =empSalaries.reduce( (runningTotal, value) => {
     return runningTotal+value;
 });
 console.log(sulSalary);
+
+console.log(`-------------------------------------------------------------`);
