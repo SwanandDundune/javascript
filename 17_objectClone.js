@@ -64,6 +64,11 @@ console.log(deepClonedPerson.address.street );
 
 
 
+const person = {
+    name: "elon",
+    age: 45
+}
+
 
 
 

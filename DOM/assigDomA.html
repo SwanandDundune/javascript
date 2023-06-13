@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            Exercise time!
+        </title>
+    </head>
+    <body>
+        <Main>
+            <div id="overview">
+                <h1> HTML and javascript are crucial technologies</h1>
+                <p>The web would not work without them </p>
+            </div>
+            <div id="advantages">
+                <ul>
+                    <li>Flexible</li>
+                    <li>Available</li>
+                    <li>magical</li>
+                </ul>
+            </div>
+        </Main>
+      <script>
+        const mainheading  = document.querySelector('h1');
+        console.log(mainheading.innerHTML);
+        const secondAdvantage = document.querySelectorAll('li');
+        console.log(secondAdvantage[1].innerHTML);
+        const advDive =  document.querySelectorAll("#advantages");
+        for (const element of advDive) {
+        console.log(element.innerHTML);
+            
+        }
+
+      </script>
+
+    </body>
+</html>

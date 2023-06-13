@@ -29,5 +29,3 @@ const array4 = [...array1, ...array2, ...array3];
 console.log(array4);
 
 
-
-
