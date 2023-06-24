@@ -27,7 +27,7 @@ function str (){
     var resultA = result.length;
     console.log(`1) Length of given string: ${resultA}`);
 
-    var resultB = result.split(" ")
+    var resultB = result.split(" ");
     var resultC = resultB.length;
 
     console.log(`2.1) Division of length of string to the count of string words is:  ${resultA/resultC}`);

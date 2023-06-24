@@ -1,6 +1,6 @@
 function factorialOfNum(num) {
                if (num==0) {
-                     console.log(`Factornial od zero is : 1`);
+                     console.log(`Factorial of zero is : 1`);
                      return;
                } else {
                   if (num==null || num==undefined || num==isNaN(num)) {

@@ -1,4 +1,4 @@
-let map = new Map();
+  let map = new Map();
 console.log(typeof map);
 
 // Key : Roll Number , Value : Student Name
@@ -33,10 +33,10 @@ const isAvailable = map.has(44);
 console.log(`Iss 44 key Available: ${isAvailable}`);
 
 const keys = map.keys();
-console.log(keys);
+console.log(keys); 
 
 const values = map.values();
-console.log(values);
+console.log(values);  
 
 console.log("Traversing map");
 const keysOfMap = map.keys();

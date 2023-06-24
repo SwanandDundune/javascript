@@ -17,9 +17,15 @@ while (j<=30) {  // condition
 }
 
 
-// WAP to print number from 100 to 90
+// WAP to print number from 100 to 90 
 let k = 100; 
 while (k>=90) {
    console.log(k);
    k--;
+}
+
+let p = 80;
+while (p>=70) {
+   console.log(p);
+   p--;
 }

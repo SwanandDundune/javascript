@@ -39,7 +39,7 @@ function Months(monthNum) {
       console.log(`Month is: December as month number is  ${monthNum}`);
       break;
     default:
-        console.log(`Invalid input Data ==> Month is ${monthNum}`);
+      console.log(`Invalid input Data ==> Month is ${monthNum}`);
       break;
   }
 }

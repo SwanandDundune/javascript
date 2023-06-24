@@ -1,12 +1,14 @@
 const person = {
     name: "Stew",
-    age: 54
+    age: 54,
+    
+    
 }
 function sayHello(company) {
-    console.log(` ${person.name} ${person.age}  ${company}`);
+    console.log(` ${person.name} ${person.age}  ${company} `);
 }
 
-sayHello.call(person, "Apple" );
+sayHello.call(person, "Apple" , "CEO");
 
 console.log(`------------------------------------------------------------------------------------------------`);
 console.log("apply()"); 

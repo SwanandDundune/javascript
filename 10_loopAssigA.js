@@ -21,9 +21,7 @@ for (let index = 0; index < word.length; index++) {
 }
 console.log(`   Total number of Vowels avalible in given string : ${count}`);
 
-console.log(
-  `===============================================================================================`
-);
+console.log(`===============================================================================================`);
 
 function sumCube() {
   var sum = 0;
@@ -37,9 +35,7 @@ function sumCube() {
 }
 sumCube();
 
-console.log(
-  `==========================================================================================================`
-);
+console.log(`==========================================================================================================`);
 
 // function oddPositionedChars(inputString) {
 //   let result = "";
@@ -62,9 +58,7 @@ console.log(
 
 // oddPositionedChars("Soon I will be Angular IT champ");
 
-console.log(
-  `===================================================================================`
-);
+console.log( `===================================================================================`);
 
 function oddPositionedChars(inputString) {
   var str = "";

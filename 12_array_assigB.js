@@ -16,7 +16,8 @@ console.log(`2) Add "PaPaya" element, the Array is:  ${arrayFruits}`);
 arrayFruits.splice(4,1);
 console.log(`3) Remove "Mango" element, the Array is: ${arrayFruits}`);
 
-arrayFruits[arrayFruits.length]= "Pineapple";
+// arrayFruits[arrayFruits.length]= "Pineapple"; 
+ arrayFruits.push("Pineapple")
 console.log(`4) Add "Pineapple" element, the Array is:  ${arrayFruits}`);
 
 arrayFruits.splice(4,0,"Dragun Fruit");
@@ -28,6 +29,6 @@ console.log(`6) Replace "Kiwi" Element, the Array is:  ${arrayFruits}`);
 let sliceE = arrayFruits.slice(1,4);
 console.log(`7)Slice element from 1 to 4 index, the Array is:  ${sliceE}`);
 
-let arrayLengthA = arrayFruits.length;
-let selectLast3 = arrayFruits.slice(4,arrayLengthA,)
+let arrayLengthA = arrayFruits.length-3;
+let selectLast3 = arrayFruits.slice(arrayLengthA,)
 console.log(`8)Select lasr 3 elements, the Array is:  ${selectLast3}`);

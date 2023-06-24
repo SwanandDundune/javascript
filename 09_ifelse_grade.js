@@ -10,7 +10,7 @@ function voteEligibility(age){
          } else {
         console.log(`Your age: ${age} ---> You are eligible for Voting `);
             
-         }
+        }
     }
        
 
